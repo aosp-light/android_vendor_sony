@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/etc/fast-dormancy/fd_ext_conf.txt:system/etc/fast-dormancy/fd_ext_conf.txt \
     vendor/sony/hikari/proprietary/etc/fast-dormancy/fd_int_conf.txt:system/etc/fast-dormancy/fd_int_conf.txt \
     vendor/sony/hikari/proprietary/etc/fast-dormancy/fd_int_conf_fusion.txt:system/etc/fast-dormancy/fd_int_conf_fusion.txt \
-    vendor/sony/hikari/proprietary/etc/firmware/BCM4330.hcd:system/etc/firmware/BCM4330.hcd \
     vendor/sony/hikari/proprietary/etc/firmware/bq27520_fw-0507_filever-0011_proj-hika_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0011_proj-hika_golden.bqfs \
     vendor/sony/hikari/proprietary/etc/firmware/bq27520_fw-0507_filever-0011_proj-hika_golden.dffs:system/etc/firmware/bq27520_fw-0507_filever-0011_proj-hika_golden.dffs \
     vendor/sony/hikari/proprietary/etc/firmware/dsps_fluid.b00:system/etc/firmware/dsps_fluid.b00 \
@@ -210,7 +209,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/hikari/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/hikari/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
-    vendor/sony/hikari/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/sony/hikari/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/sony/hikari/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/hikari/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/hikari/proprietary/lib/libqmi.so:system/lib/libqmi.so \
