@@ -12,6 +12,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# DASH
+PRODUCT_COPY_FILES += \
+    vendor/sony/hikari/proprietary/lib/libals.so:system/lib/libals.so \
+    vendor/sony/hikari/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
+    vendor/sony/hikari/proprietary/lib/libmpl.so:system/lib/libmpl.so \
+    vendor/sony/hikari/proprietary/lib/libmllite.so:system/lib/libmllite.so \
+    vendor/sony/hikari/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
+    vendor/sony/hikari/proprietary/lib/libsensors_akm8972.so:system/lib/libsensors_akm8972.so
+
 # Sony blob(s) necessary for hikari hardware
 PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
