@@ -144,7 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/sony/hikari/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
     vendor/sony/hikari/proprietary/lib/hw/gps.msm8660.so:system/lib/hw/gps.msm8660.so \
-    vendor/sony/hikari/proprietary/lib/hw/nfc.msm8660.so:system/lib/hw/nfc.msm8660.so \
     vendor/sony/hikari/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/hikari/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/hikari/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
@@ -209,7 +208,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/hikari/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
     vendor/sony/hikari/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/hikari/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/sony/hikari/proprietary/lib/libnfc.so:system/lib/libnfc.so \
     vendor/sony/hikari/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/sony/hikari/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/hikari/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
